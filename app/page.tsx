@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Introduction from "@/components/Introduction";
 import Image from "next/image";
 
@@ -10,7 +11,7 @@ export default function Home() {
         <Introduction />
         <main className="pt-24 lg:w-1/2 lg:py-24">
           <About />
-
+          <Experience/>
         </main>
       </div>
     </div>

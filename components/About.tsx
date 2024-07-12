@@ -10,7 +10,7 @@ const About = () => {
             <p className='mb-4'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                 repudiandae sed ducimus neque rerum sapiente aliquam assumenda,
-                quasi blanditiis debitis dolor <Link href="" className='font-medium text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'>asperiores</Link> reprehenderit at
+                quasi blanditiis debitis dolor <Link href="" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'>asperiores</Link> reprehenderit at
                 officiis animi odit, enim voluptatibus saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia exercitationem quidem dolore
                 quibusdam accusantium debitis, iusto pariatur, expedita impedit esse mollitia sapiente totam explicabo adipisci sit qui quos doloremque facere odio commodi.
             </p>

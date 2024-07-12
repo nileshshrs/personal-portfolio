@@ -11,8 +11,8 @@ const Introduction = () => {
                     Nilesh Shrestha
                 </h1>
                 <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>B.Sc. (Hons.) Computing Student</h2>
-                <p className='mt-4 max-w-xs leading-normal'>
-                    Learning to build pixel-perfect, engaging, and accessible digital experience
+                <p className='mt-4 max-w-xs leading-normal font-semibold'>
+                    Building precise, engaging, and accessible digital experiences for the web.
                 </p>
                 <Navbar />
             </div>
