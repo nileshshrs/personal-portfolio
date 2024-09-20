@@ -8,25 +8,18 @@ const About = () => {
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <p className='mb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                repudiandae sed ducimus neque rerum sapiente aliquam assumenda,
-                quasi blanditiis debitis dolor <Link href="" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'>asperiores</Link> reprehenderit at
-                officiis animi odit, enim voluptatibus saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia exercitationem quidem dolore
-                quibusdam accusantium debitis, iusto pariatur, expedita impedit esse mollitia sapiente totam explicabo adipisci sit qui quos doloremque facere odio commodi.
+                I'm Nilesh Shrestha, a B.Sc. (Hons.) Computing student passionate about crafting precise, engaging, and accessible digital experiences.
+                My journey into coding began in late 2020, inspired by a Discord bot that could converse with users, which was integrated using <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'>Cleverbot</Link>.
+                This experience opened my eyes to the possibilities of technology and sparked a desire to explore how software can enhance communication and interaction.
+
             </p>
             <p className='mb-4'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-                ratione illo cum esse distinctio nisi, perspiciatis quod ut!
-                Tempore consequuntur officia cupiditate voluptas ratione quam
-                accusantium nesciunt assumenda facilis debitis!
+                I focus on building user-centered applications using technologies like React, Java, Python, and Spring Boot. Working on various projects allows me to apply these technologies in meaningful ways.
+                I'm also developing an interest in machine learning and computer vision, and I’m curious about how these technologies can enhance user experiences.
+                Through hands-on experiences, I strive to improve my skills in HTML, CSS, and JavaScript, learning to implement design best practices that contribute to accessibility and functionality.
             </p>
             <p className='mb-4'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusamus nisi sunt maxime delectus voluptatum ab?
-            </p>
-            <p className='mb-4'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam,
-                numquam!
+                I enjoy the challenge of creating intuitive user interfaces that facilitate easy navigation and interaction.
             </p>
         </section >
     )

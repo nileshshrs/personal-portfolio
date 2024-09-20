@@ -17,7 +17,7 @@ const Experience = () => {
                         <div className="z-10 sm:col-span-6">
                             <h3 className="font-medium leading-snug text-slate-200">
                                 <div>
-                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-purple-300 focus-visible:text-purple-300  group/link text-base" href="https://www.ekbana.com/" target="_blank" rel="noreferrer noopener" >
+                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-purple-300 focus-visible:text-purple-300  group/link text-base" href="https://softwarica.edu.np/" target="_blank" rel="noreferrer noopener" >
                                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                         <span>(Hons.) Computing Undergraduate &nbsp; · &nbsp;
                                             <span className="inline-block">Coventry University
@@ -195,4 +195,3 @@ const Experience = () => {
 }
 
 export default Experience
-//remember to fix the resume link later 

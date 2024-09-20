@@ -30,7 +30,15 @@ const Project = () => {
                                     </a>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    A simplified chat application built with Flutter and Dart, inspired by WeChat (微信) by Tencent. This app features basic messaging capabilities, user authentication, and data storage powered by Firebase. Designed with a focus on ease of use, it allows users to engage in seamless and extended conversations                                </p>
+                                    A simplified chat application built with Flutter and Dart, inspired by WeChat (微信) by Tencent. This app features basic messaging capabilities, user authentication, and data storage powered by Firebase. Designed with a focus on ease of use, it allows users to engage in seamless and extended conversations
+                                </p>
+                                <ul className="mt-2 flex flex-wrap">
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            Flutter & Dart
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                             <img
                                 alt=""
@@ -64,7 +72,34 @@ const Project = () => {
                                     </a>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    A responsive online clothing store using Spring Boot, PostgreSQL, and React, highlighting full-stack expertise. Involves end-to-end management, focusing on UI/UX and security with JWT authentication. GitHub source code demonstrates skills in React, relational databases, and Spring Boot                                </p>
+                                    A responsive online clothing store using Spring Boot, PostgreSQL, and React, highlighting full-stack expertise. Involves end-to-end management, focusing on UI/UX and security with JWT authentication. GitHub source code demonstrates skills in React, relational databases, and Spring Boot
+                                </p>
+                                <ul className="mt-2 flex flex-wrap">
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            React
+                                        </div>
+                                    </li><li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            Springboot
+                                        </div>
+                                    </li>
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            Tailwind
+                                        </div>
+                                    </li>
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            CSS & SCSS
+                                        </div>
+                                    </li>
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            JavaScript (ES6+)
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                             <img
                                 alt=""
@@ -87,9 +122,8 @@ const Project = () => {
                                     <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-purple-300 focus-visible:text-purple-300  group/link text-base" href="" target="_blank" rel="noreferrer noopener">
                                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block">
                                         </span>
-                                        <span>Build a Spotify Connected
+                                        <span>nileshshrs.com
                                             <span className="inline-block">
-                                                App
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd">
                                                     </path>
@@ -99,8 +133,29 @@ const Project = () => {
                                     </a>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.
+                                    A resume-themed personal portfolio website built with Next.js and Tailwind CSS.
                                 </p>
+                                <ul className="mt-2 flex flex-wrap">
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            React
+                                        </div>
+                                    </li><li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            NextJS
+                                        </div>
+                                    </li>
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            Tailwind CSS
+                                        </div>
+                                    </li>
+                                    <li className="mr-1.5 mt-2">
+                                        <div className="flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300 ">
+                                            JavaScript (ES6+)
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                             <img
                                 alt=""
@@ -116,7 +171,11 @@ const Project = () => {
                     </li>
                 </ul>
                 <div className="mt-12">
-                    <a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" href="#">
+                    <a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
+                        href="https://github.com/nileshshrs?tab=repositories"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                    >
                         <span>
                             <span className="border-b border-transparent pb-px transition group-hover:border-purple-300 motion-reduce:transition-none">
                                 View Full Project
