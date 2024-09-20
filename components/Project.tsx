@@ -133,7 +133,7 @@ const Project = () => {
                                     </a>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    A resume-themed personal portfolio website built with Next.js and Tailwind CSS.
+                                    A résumé-themed personal portfolio website built with Next.js and Tailwind CSS.
                                 </p>
                                 <ul className="mt-2 flex flex-wrap">
                                     <li className="mr-1.5 mt-2">
