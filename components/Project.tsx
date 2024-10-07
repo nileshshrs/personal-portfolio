@@ -41,7 +41,7 @@ const Project = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <img
+                            <Image
                                 alt=""
                                 loading="lazy"
                                 width="200"
@@ -102,7 +102,7 @@ const Project = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <img
+                            <Image
                                 alt=""
                                 loading="lazy"
                                 width="200"
@@ -158,7 +158,7 @@ const Project = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <img
+                            <Image
                                 alt=""
                                 loading="lazy"
                                 width="200"

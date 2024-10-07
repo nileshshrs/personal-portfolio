@@ -8,7 +8,7 @@ const About = () => {
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <p className='mb-4'>
-                I'm Nilesh Shrestha, a B.Sc. (Hons.) Computing student focused on creating user-centered digital experiences.
+                I&apos;m Nilesh Shrestha, a B.Sc. (Hons.) Computing student focused on creating user-centered digital experiences.
                 I started coding in 2020, inspired by a <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'> Cleverbot</Link> integrated Discord bot.
                 for conversations.
 
