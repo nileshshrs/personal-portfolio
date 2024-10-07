@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from 'next/link'
+import React from 'react'
 
 const About = () => {
     return (
@@ -8,21 +8,19 @@ const About = () => {
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <p className='mb-4'>
-                I&apos;m Nilesh Shrestha, a B.Sc. (Hons.) Computing student focused on creating user-centered digital experiences.
-                I started coding in 2020, inspired by a
-                <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener">
-                    <a className='text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'> Cleverbot</a>
-                </Link> 
-                integrated Discord bot for conversations.
+                I'm Nilesh Shrestha, a B.Sc. (Hons.) Computing student focused on creating user-centered digital experiences.
+                I started coding in 2020, inspired by a <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'> Cleverbot</Link> integrated Discord bot.
+                for conversations.
+
             </p>
             <p className='mb-4'>
                 I use React, Java, Python, and Spring Boot to build accessible applications, emphasizing usability and design best practices. My skills in HTML, CSS, and JavaScript help me create intuitive interfaces.
             </p>
             <p className='mb-4'>
-                Now, I&apos;m exploring machine learning and computer vision to deepen user engagement. I enjoy blending technology and design to build software that&apos;s both functional and enjoyable.
+                Now, I'm exploring machine learning and computer vision to deepen user engagement. I enjoy blending technology and design to build software that’s both functional and enjoyable.
             </p>
-        </section>
-    );
+        </section >
+    )
 }
 
-export default About;
+export default About
