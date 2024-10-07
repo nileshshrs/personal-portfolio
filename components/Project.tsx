@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
+
 const Project = () => {
     return (
         <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
@@ -48,7 +49,7 @@ const Project = () => {
                                 decoding="async"
                                 data-nimg="1"
                                 className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f3c7248-dd64-4e83-a669-4d292527556c/df04npg-abd171d4-50d0-440e-b599-6a9ce0b8d717.png/v1/fill/w_1192,h_670,q_70,strp/random_anime_girl_with_guns_vaporwave_wallpaper_by_jdsphotoshops_df04npg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGYzYzcyNDgtZGQ2NC00ZTgzLWE2NjktNGQyOTI1Mjc1NTZjXC9kZjA0bnBnLWFiZDE3MWQ0LTUwZDAtNDQwZS1iNTk5LTZhOWNlMGI4ZDcxNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5BuT7OX9li5xpJm_cEjGQnMkFkZU2FHl-bdK2neuFsE"
+                                src="/images/2.png"
                             />
                         </div>
                     </li>
@@ -109,7 +110,7 @@ const Project = () => {
                                 decoding="async"
                                 data-nimg="1"
                                 className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f3c7248-dd64-4e83-a669-4d292527556c/df04npg-abd171d4-50d0-440e-b599-6a9ce0b8d717.png/v1/fill/w_1192,h_670,q_70,strp/random_anime_girl_with_guns_vaporwave_wallpaper_by_jdsphotoshops_df04npg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGYzYzcyNDgtZGQ2NC00ZTgzLWE2NjktNGQyOTI1Mjc1NTZjXC9kZjA0bnBnLWFiZDE3MWQ0LTUwZDAtNDQwZS1iNTk5LTZhOWNlMGI4ZDcxNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5BuT7OX9li5xpJm_cEjGQnMkFkZU2FHl-bdK2neuFsE"
+                                src="/images/1.png"
                             />
                         </div>
                     </li>
@@ -165,7 +166,7 @@ const Project = () => {
                                 decoding="async"
                                 data-nimg="1"
                                 className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f3c7248-dd64-4e83-a669-4d292527556c/df04npg-abd171d4-50d0-440e-b599-6a9ce0b8d717.png/v1/fill/w_1192,h_670,q_70,strp/random_anime_girl_with_guns_vaporwave_wallpaper_by_jdsphotoshops_df04npg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGYzYzcyNDgtZGQ2NC00ZTgzLWE2NjktNGQyOTI1Mjc1NTZjXC9kZjA0bnBnLWFiZDE3MWQ0LTUwZDAtNDQwZS1iNTk5LTZhOWNlMGI4ZDcxNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5BuT7OX9li5xpJm_cEjGQnMkFkZU2FHl-bdK2neuFsE"
+                                src="/images/3.png"
                             />
                         </div>
                     </li>

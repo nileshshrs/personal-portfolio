@@ -8,18 +8,16 @@ const About = () => {
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <p className='mb-4'>
-                I'm Nilesh Shrestha, a B.Sc. (Hons.) Computing student passionate about crafting precise, engaging, and accessible digital experiences.
-                My journey into coding began in late 2020, inspired by a Discord bot that could converse with users, which was integrated using <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'>Cleverbot</Link>.
-                This experience sparked a desire to explore how software can enhance interactions.
+                I'm Nilesh Shrestha, a B.Sc. (Hons.) Computing student focused on creating user-centered digital experiences.
+                I started coding in 2020, inspired by a <Link href="https://www.cleverbot.com/" target="_blank" rel="noreferrer noopener" className=' text-slate-200 hover:text-purple-300 focus-visible:text-purple-300'> Cleverbot</Link> integrated Discord bot.
+                for conversations.
 
             </p>
             <p className='mb-4'>
-                Now i'm focus on building user-centered applications using technologies like React, Java, Python, and Spring Boot. Working on various projects allows me to apply these technologies in meaningful ways.
-                I'm also developing an interest in machine learning and computer vision, and I’m curious about how these technologies can enhance user experiences.
-                Through hands-on experiences, I strive to improve my skills in HTML, CSS, and JavaScript, learning to implement design best practices that contribute to accessibility and functionality.
+                I use React, Java, Python, and Spring Boot to build accessible applications, emphasizing usability and design best practices. My skills in HTML, CSS, and JavaScript help me create intuitive interfaces.
             </p>
             <p className='mb-4'>
-                I enjoy the challenge of creating intuitive user interfaces that facilitate easy navigation and interaction.
+                Now, I'm exploring machine learning and computer vision to deepen user engagement. I enjoy blending technology and design to build software that’s both functional and enjoyable.
             </p>
         </section >
     )
