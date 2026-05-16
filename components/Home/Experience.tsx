@@ -146,7 +146,7 @@ const Experience = () => {
             <div className="mt-12">
                 <Link
                     className="inline-flex items-baseline font-semibold leading-tight text-slate-200 hover:text-purple-300 focus-visible:text-purple-300 group/link text-base"
-                    href="https://drive.google.com/file/d/1KZ2k_x8SdiLBYHcQz8fwfpl61iH_2aYn/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Jzz_8gRMgN3jHXhTMecabgB7LPNxnKeJ/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
