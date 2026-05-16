@@ -8,7 +8,7 @@ const Navbar = () => {
     const activeSection = useActiveSection()
 
     useEffect(() => {
-        window.history.replaceState(null, '', `#${activeSection}`)
+        globalThis.history.replaceState(null, '', `#${activeSection}`)
     }, [activeSection])
 
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {

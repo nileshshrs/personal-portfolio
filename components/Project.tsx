@@ -28,6 +28,9 @@ export default function Project() {
         { label: "AI & Machine Learning" },
         { label: "Python" },
         { label: "Heuristic Evaluation" },
+        { label: "Pandas & NumPy" },
+        { label: "Matplotlib" },
+        { label: "Pygame" },
       ],
     },
     {

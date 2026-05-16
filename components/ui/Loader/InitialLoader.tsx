@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 
-import { HexagonLoader } from "@/components/HexagonLoader"
+import { HexagonLoader } from "@/components/ui/Loader/HexagonLoader"
 import {
   loaderAnimationDurationMs,
   loaderStorageKey,

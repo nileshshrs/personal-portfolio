@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import localFont from "next/font/local";
 import Script from "next/script";
-import { InitialLoader } from "@/components/InitialLoader";
+import { InitialLoader } from "@/components/ui/Loader/InitialLoader";
 import { Spotlight } from "@/components/ui/Spotlight/Spotlight";
 import { loaderStorageKey } from "@/lib/loader";
 import { getSiteOrigin, siteDescription, siteName } from "@/lib/site";
@@ -10,7 +10,6 @@ import "./globals.css";
 import { Orbs } from "@/components/Orbs";
 
 const forceLoaderVisibleInDev = process.env.NODE_ENV !== "production";
-const loaderCookieValue = `${loaderStorageKey}=true`;
 
 const poppins = localFont({
   display: "swap",
