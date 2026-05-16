@@ -17,7 +17,7 @@ export default async function Home() {
     sameAs: [
       "https://github.com/nileshshrs",
       "https://www.linkedin.com/in/nileshshrs/",
-      "https://www.instagram.com/nileshshrs/",
+      "https://www.instagram.com/nileshshrs_/",
       "https://www.facebook.com/nilesh.shrestha.3152/",
     ],
   };
