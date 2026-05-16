@@ -7,7 +7,7 @@ import { Spotlight } from "@/components/ui/Spotlight/Spotlight";
 import { loaderStorageKey } from "@/lib/loader";
 import { getSiteOrigin, siteDescription, siteName } from "@/lib/site";
 import "./globals.css";
-import { Orbs } from "@/components/Orbs";
+import { Orbs } from "@/components/ui/Home/Orbs";
 
 const forceLoaderVisibleInDev = process.env.NODE_ENV !== "production";
 
