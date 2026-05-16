@@ -1,10 +1,12 @@
 "use client"
 
-import About from "@/components/About"
-import Experience from "@/components/Experience"
-import Footer from "@/components/Footer"
-import Introduction from "@/components/Introduction"
-import Project from "@/components/Project"
+import About from "@/components/Home/About"
+import Experience from "@/components/Home/Experience"
+import Footer from "@/components/Home/Footer"
+import Introduction from "@/components/Home/Introduction"
+import Project from "@/components/Home/Project"
+
+
 
 export default function HomePageContent() {
   return (
