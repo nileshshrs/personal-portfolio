@@ -1,11 +1,23 @@
 'use client'
 
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useActiveSection } from '@/hooks/useActiveSection'
 
 const Navbar = () => {
     const activeSection = useActiveSection()
+
+    useEffect(() => {
+        window.history.replaceState(null, '', `#${activeSection}`)
+    }, [activeSection])
+
+    const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+        e.preventDefault()
+        const element = document.getElementById(sectionId)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
 
     const getLinkClass = (sectionId: string) => {
         const baseClass = 'group flex items-center py-3'
@@ -26,7 +38,7 @@ const Navbar = () => {
         <nav className="nav hidden lg:block">
             <ul className="mt-16 w-max">
                 <li>
-                    <Link className={getLinkClass('about')} href="#about">
+                    <Link className={getLinkClass('about')} href="#about" onClick={(e) => handleNavClick(e, 'about')}>
                         <span className={getIndicatorClass('about')}>
                         </span>
                         <span className={getTextClass('about')}>
@@ -35,7 +47,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className={getLinkClass('experience')} href="#experience">
+                    <Link className={getLinkClass('experience')} href="#experience" onClick={(e) => handleNavClick(e, 'experience')}>
                         <span className={getIndicatorClass('experience')}>
                         </span>
                         <span className={getTextClass('experience')}>
@@ -44,7 +56,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className={getLinkClass('projects')} href="#projects">
+                    <Link className={getLinkClass('projects')} href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>
                         <span className={getIndicatorClass('projects')}>
                         </span>
                         <span className={getTextClass('projects')}>
