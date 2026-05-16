@@ -111,9 +111,9 @@ export default async function RootLayout({
   const shouldShowLoader = forceLoaderVisibleInDev || !loaderSeen;
   const loaderStateScript = forceLoaderVisibleInDev
     ? "(function(){document.documentElement.dataset.loaderActive='true';})()"
-    : "(function(){try{var seen=document.cookie.split('; ').some(function(cookie){return cookie===" +
-      JSON.stringify(loaderCookieValue) +
-      ";});document.documentElement.dataset.loaderActive=seen?'false':'true';}catch(e){document.documentElement.dataset.loaderActive='false';}})();";
+    : "(function(){try{var cookies=document.cookie.split('; ');var seen=false;for(var i=0;i<cookies.length;i++){if(cookies[i].indexOf('" +
+      loaderStorageKey +
+      "=')===0){seen=true;break;}}document.documentElement.dataset.loaderActive=seen?'false':'true';}catch(e){document.documentElement.dataset.loaderActive='true';}})();";
 
   return (
     <html
